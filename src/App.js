@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import React, { Fragment } from 'react';
+import MyComponents from './MyComponents';
 
 function App() {
   return (
     <Fragment>
-      <h1>리액트 안녕!</h1>
-      <h2>잘 동작하니?</h2>
+      <MyComponents name="test" requiredNumber={1}>
+        children test
+      </MyComponents>
     </Fragment>
   );
 }
