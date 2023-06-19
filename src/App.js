@@ -3,6 +3,7 @@ import './App.css';
 import React, { Fragment } from 'react';
 import MyComponents from './MyComponents';
 import StateComponents from './StateComponents';
+import Say from './Say';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         children test
       </MyComponents>
       <StateComponents/>
+      <Say/>
     </Fragment>
   );
 }
