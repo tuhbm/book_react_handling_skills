@@ -2,6 +2,7 @@
 import './App.css';
 import React, { Fragment } from 'react';
 import MyComponents from './MyComponents';
+import StateComponents from './StateComponents';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <MyComponents name="test" requiredNumber={1}>
         children test
       </MyComponents>
+      <StateComponents/>
     </Fragment>
   );
 }
