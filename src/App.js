@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import MyComponents from './MyComponents';
 import StateComponents from './StateComponents';
 import Say from './Say';
+import EventPractice from './EventPractice';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </MyComponents>
       <StateComponents/>
       <Say/>
+      <EventPractice />
     </Fragment>
   );
 }
